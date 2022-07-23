@@ -1,0 +1,7 @@
+version: '2'
+service:
+ webserver:
+   container_name: nginx
+   image: nginx:latest
+   ports:  
+   - "8080:80"
